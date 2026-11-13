@@ -40,7 +40,8 @@ python3 main.py   # reads /input/<id>.in, writes /output/<id>.out
 ```
 
 Runs in ~0.1s per case, deterministic (two runs byte-identical), output
-~277 KB (< 1 MiB).
+~277 KB (< 1 MiB). Verified from this repository: `python3 main.py` on
+each kit practice case reproduces the 0.3069 loss above.
 
 ## Referral
 
